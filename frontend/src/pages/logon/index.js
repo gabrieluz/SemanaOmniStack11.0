@@ -9,8 +9,6 @@ import { FiLogIn } from 'react-icons/fi'
 import logoimg from '../../assets/logo.svg'
 import heroesimg from '../../assets/heroes.png';
 
-
-
 export default function Logon(){
     const [id, setId] = useState('');
     const history = useHistory();
@@ -35,7 +33,6 @@ export default function Logon(){
 
                 <form onSubmit={handlelogin}>
                     <h1>Faça seu logon</h1>
-
                     <input 
                     placeholder="Sua id"
                     value={id}

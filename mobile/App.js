@@ -1,5 +1,5 @@
-import 'intl'
 import 'intl/locale-data/jsonp/pt-BR'
+import 'intl'
 
 import React from 'react';
 
@@ -10,5 +10,3 @@ export default function App() {
     <Route  />
   );
 }
-
-
